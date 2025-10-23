@@ -10,8 +10,7 @@ SSH Security Monitor est un outil Python qui analyse les logs SSH d'un serveur L
 - Génération d'un rapport quotidien
 - (Bonus) Blocage automatique des IP malveillantes via iptables ou fail2ban
 
-
-  License
+# License
 MIT License © 2025 YASSER BOUCHAAL
 
 
