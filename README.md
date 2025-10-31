@@ -1,17 +1,33 @@
-# SSH Security Monitor
+# 🔐 SSH Security Monitor
 
-SSH Security Monitor est un outil Python qui analyse les logs SSH d'un serveur Linux pour détecter les tentatives de connexion échouées et identifier les IP suspectes.
+**SSH Security Monitor** est un outil Python qui analyse les journaux SSH pour détecter les tentatives de connexion échouées, identifier les adresses IP suspectes et générer des rapports de sécurité quotidiens.  
+Projet idéal pour débuter en **cybersécurité défensive (Blue Team)** et en analyse de logs.
 
-## Fonctionnalités
-- Analyse des logs SSH (/var/log/auth.log ou journalctl -u ssh)
-- Détection des tentatives échouées de connexion
-- Comptage et identification des IP suspectes
-- Liste des connexions réussies
-- Génération d'un rapport quotidien
-- (Bonus) Blocage automatique des IP malveillantes via iptables ou fail2ban
+---
 
-# License
-MIT License © 2025 YASSER BOUCHAAL
+## 🎯 Objectifs
+
+- Analyser les logs SSH depuis `data/sample_auth.log`
+- Détecter les échecs de connexion et les IP suspectes
+- Lister les connexions réussies
+- Générer un rapport automatique (`reports/daily_report.txt`)
+- *(Bonus)* Simuler ou bloquer les IP malveillantes avec `iptables`
+
+---
+
+## 🧰 Technologies
+
+- **Langage** : Python 3  
+- **Modules** : `re`, `os`, `subprocess`, `collections`  
+- **Système** : Linux (Ubuntu, Debian, Kali…)  
+- **Versionnement** : Git & GitHub  
+
+
+MIT License
+Copyright (c) 2025 Yasser Bouchaal
+
+
+
 
 
 
