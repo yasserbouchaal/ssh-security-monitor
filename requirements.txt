@@ -1,0 +1,18 @@
+# Dépendances Python pour SSH Security Monitor
+
+# Analyse et manipulation de texte
+re
+
+# Gestion du système et exécution de commandes
+os
+subprocess
+
+# Comptage et statistiques
+collections
+
+# (Optionnel) Génération de rapports avancés
+datetime
+
+# (Optionnel) Pour futures évolutions : SQLite ou Flask
+# sqlite3
+# flask
