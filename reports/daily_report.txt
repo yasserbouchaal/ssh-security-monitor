@@ -1,0 +1,9 @@
+=== SSH Security Monitor - Rapport Quotidien ===
+Date : 2025-10-31 04:17:02
+
+[Connexions échouées]
+192.168.1.15 → 7 fois
+10.0.0.44 → 1 fois
+
+[Connexions réussies]
+192.168.1.20 → 1 fois
