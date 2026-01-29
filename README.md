@@ -318,9 +318,7 @@ sudo iptables -A INPUT -s 192.168.1.15 -j DROP
 
 ## 📄 License
 
-This project is licensed under the **MIT License**.
-
-```
+This project is licensed under the MIT License.
 
 ---
 
