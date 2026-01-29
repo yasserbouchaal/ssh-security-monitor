@@ -321,14 +321,6 @@ sudo iptables -A INPUT -s 192.168.1.15 -j DROP
 This project is licensed under the **MIT License**.
 
 ```
-MIT License
-
-Copyright (c) 2025 Yasser Bouchaal
-
-
-```
-
-See the [LICENSE](LICENSE) file for complete details.
 
 ---
 
